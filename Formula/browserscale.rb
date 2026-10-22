@@ -1,15 +1,15 @@
 class Browserscale < Formula
   desc "Build browser automations by chatting with an agent"
   homepage "https://browserscale.cloud"
-  version "0.4.5"
+  version "0.4.6"
 
   on_arm do
     url "https://github.com/browserscale/browserscale/releases/download/v#{version}/browserscale-studio_#{version}_darwin_arm64.tar.gz"
-    sha256 "358dad6f1f9e3c4766e6a86f8bc64d70a44b3832d887aeb2dccb94c6d9fc1646"
+    sha256 "e6a7f5ca2f038b734b2dca7d3782c447dd69b8df8a9abade7c0825d9fcef1dea"
   end
   on_intel do
     url "https://github.com/browserscale/browserscale/releases/download/v#{version}/browserscale-studio_#{version}_darwin_amd64.tar.gz"
-    sha256 "d9c79f522ad47cf02df0260731130ce650d1c82da27361e6d83ef998200bb55e"
+    sha256 "ac73e17d5731e7aa0142dc1802cb2c03b3b2c470d2dd0c40f60f1d6244d2b2c6"
   end
 
   depends_on :macos
